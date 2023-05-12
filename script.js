@@ -74,9 +74,9 @@ carousel.addEventListener("touchend", dragStop);
 
 
 document.getElementById("page1").addEventListener("click", function(){
-   window.location.replace('dronePage1.html')
+   window.location.replace('index.html')
 });
 
 document.getElementById("page2").addEventListener("click", function(){
-   window.location.replace('dronePage2.html')
+   window.location.replace('index2.html')
 });
