@@ -1,0 +1,507 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.row{
+    max-width: 100%;
+}
+input{
+    outline: none;
+}
+a{
+    color: #000;
+    text-decoration: none
+}
+a:hover{
+    color: #000;
+    text-decoration: none
+}
+html{
+    font-size: 56%;
+}
+img{
+    width: 100%;
+}
+.logo {
+    width: 13%;
+}
+.container-fluid {
+    margin: 0rem -.5rem;
+}
+.droneHomePage {
+    background-image: linear-gradient(
+        25deg, 
+        #05393ebf, #fffcfc00
+      ),url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.nav-item {
+position: relative;
+}
+nav.navbar.navbar-expand-lg.navbar-light {
+    justify-content: center;
+}
+div#navbarSupportedContent {
+    justify-content: end;
+}
+.nav-item:hover ::before {
+    transition: 6s;
+    position: absolute;
+    content: '';
+    height: .222rem;
+    background-color: #fff;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    border-radius: 4rem;
+}
+.navbar-toggler-icon {
+    width: 2.5em;
+    height: 2.5em;
+    outline: none;
+}
+ul.dropdown-menu.show {
+    font-size: 1.5rem;
+    text-align: center;
+}
+a#navbarDropdown {
+    color: #000;
+    text-align: center;
+}
+a.nav-link.active {
+    text-align: center;
+}
+ul.navbar-nav.me-auto.mb-lg-0 {
+    font-size: 2rem;
+    gap: 2rem;
+}
+.form-control {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+.homePage {
+    text-transform: uppercase;
+    color: rgb(255 255 255);
+    position: absolute;
+    top: 50%;
+    left: 26rem;
+    transform: translate(-50%, -50%);
+}
+.homePageText{
+    font-weight: 800;
+    font-size: 4rem;
+
+}
+.homeBtn {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    margin: 2rem 1rem 0rem;
+    border: .1rem solid #ddd;
+    border-radius: 1rem;
+}
+/* drone-INTRODUCTION */
+
+.drone-INTRODUCTION{
+    text-align: center;
+    margin-top: 12rem;
+}
+.drone-INTRODUCTION h1 {
+    font-size: 5rem;
+    font-weight: 800;
+    margin: 3rem 0rem 4rem;
+}
+.drone-INTRODUCTION img{
+    width: 80%;
+}
+.drone-INTRODUCTION p {
+    font-size: 2rem;
+    padding: 6rem 4rem;
+}
+.drone-Products-main {
+    display: flex;
+    justify-content: space-between;
+}
+.drone-Products-Left.col-md-4 {
+    margin-bottom: 8rem;
+}
+.drone-Products-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+.drone-Products-right-child {
+    padding: 2rem;
+    margin: 0rem;
+    box-shadow: 0px 1px 2px 0px;
+    border-top-right-radius: 2rem;
+}
+.drone-Products-right-child:hover{
+    box-shadow: 0px 2px 6px 0px;
+}
+.drone-Products-right-child  p {
+    font-size: 1.8rem;
+}
+.offerPrice{
+    position: relative;
+}
+h4.offerPrice {
+    color: #fc5132;
+    font-size: 2.1rem;
+    font-family: cursive;
+}
+.price{
+    font-size: 1.8rem;
+}
+.price::before {
+    position: absolute;
+    content: '';
+    height: 0.3rem;
+    width: 6rem;
+    bottom: 10px;
+    background-color: black;
+}
+.drone-Products-right-child img{
+    margin-bottom: 1.5rem;
+}
+
+
+
+.RecentofferPrice{
+    position: relative;
+}
+h4.RecentofferPrice {
+    color: #fc5132;
+    font-size: 1.8rem;
+    font-family: cursive;
+}
+.Recentprice{
+    font-size: 1.4rem;
+}
+.Recentprice::before {
+    position: absolute;
+    content: '';
+    height: 0.222rem;
+    width: 5.1rem;
+    bottom: 8px;
+    background-color: black;
+}
+.RecentProducts {
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+    margin: 4rem 0rem;
+}
+.RecentProducts img {
+    float: left;
+    width: 40%;
+}
+.RecentProductsH1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+.ProductCategoriesH1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+.ProductCategories p a:hover{
+    color: #fc5132;
+}
+
+.ProductCategories a  {
+    color: #000;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+.ProductCategories {
+    margin-bottom: 8rem;
+}
+.drone-ProductsH1 {
+    text-align: center;
+    margin: 8rem 0rem 5rem;
+}
+.drone-ProductsH1 h1{
+    font-size: 4rem;
+}
+.drone-Products-right-btn button {
+    border: 0;
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+    font-weight: 800;
+    margin: 3rem 1.3rem 2rem 0rem;
+}
+.wrapper {
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+}
+section.productBrands {
+    text-align: center;
+}
+.productBrands h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-top: 11rem;
+    margin-bottom: 8rem;
+}
+.wrapper i {
+    top: 50%;
+    height: 47px;
+    width: 48px;
+    color: #000000;
+    font-weight: 800;
+    cursor: pointer;
+    font-size: 2.15rem;
+    position: absolute;
+    text-align: center;
+    line-height: 39px;
+    background: #959a9dd9;
+    border-radius: 53%;
+    transform: translateY(-40%);
+    transition: transform 0.1s linear;
+}
+  .wrapper i:active{
+    transform: translateY(-50%) scale(0.9);
+  }
+  .wrapper i:hover{
+    background: #f2f2f2;
+  }
+  .wrapper i:first-child {
+    left: -20px;
+    z-index: 100;
+    display: none;
+}
+.wrapper i:last-child {
+    right: -18px;
+}
+  .wrapper .carousel{
+    font-size: 0px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+  }
+  .carousel.dragging{
+    cursor: grab;
+    scroll-behavior: auto;
+  }
+  .carousel.dragging img{
+    pointer-events: none;
+  }
+  .carousel img {
+    height: 14rem;
+    object-fit: cover;
+    user-select: none;
+    margin-left: 14px;
+    width: calc(73% / 3);
+}
+  .carousel img:first-child{
+    margin-left: 0px;
+  }
+  .footer {
+    background-image: url(images/img_footer-copyright-1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 55vh;
+    margin-top: 12rem;
+    position: relative;
+}
+.footer h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 700;
+    transform: translate(-50%, -50%);
+}
+.footerBottom {
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    margin-bottom: 4rem;
+}
+.footerBottomMain {
+    padding: 3rem 0rem 1rem;
+    background: #232d36;
+}
+.footerLeft {
+    display: flex;
+    justify-content: space-evenly;
+}
+.footerRight {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 5rem;
+}
+.footerLeftChild h3 {
+    font-size: 1.9rem;
+    margin: 4.5rem 0rem 3.5rem;
+    font-weight: 800;
+}
+.footerLeftChild p {
+    color: #989898;
+    font-size: 1.5rem;
+}
+.footerLeftChild h4 {
+    font-size: 2rem;
+    margin: 1.666rem 0rem;
+}
+.footerLeftChild p a{
+    color: #989898;
+}
+.footerLeftChild p a:hover{
+    color: #fc5132;
+}
+.InputBar input {
+    height: 4rem;
+    width: 28rem;
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+.InputBar button {
+    font-size: 1.5rem;
+    border: 0rem;
+    padding: 1rem;
+    margin-left: 0rem;
+    outline: none;
+}
+.InputBar button:hover{
+    background-color: #989898;
+    color: #fff;
+}
+.InputBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerRight h3 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+.footerRight span{
+    color: #f97d66;
+}
+hr {
+    background: rgb(255 255 255 / 30%);
+}
+.lastLine {
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+@media screen and (min-width:1600px){
+    section {
+        max-width: 1600px;
+        margin: auto;
+    }
+}
+@media screen and (max-width:991px) {
+    html{
+        font-size: 60%;
+    }
+    .carousel img {
+        width: calc(47% / 2);
+    }
+    div#navbarSupportedContent {
+        background-color: #35659dfc;
+        z-index: 1000;
+        padding: 2rem 0;
+    }
+    .nav-item:hover ::before {
+        height: 0rem;
+    }
+    a#navbarDropdown {
+        color: #ffffff;
+        text-align: center;
+    }
+ .color {
+        color: rgba(255, 255, 255, 0.9) !important;
+    }
+}
+@media screen and (max-width:767px) {
+    html{
+        font-size: 55.5%;
+    }
+    .homePage {
+        left: 22rem;
+    }
+    .drone-INTRODUCTION h1 {
+        font-size: 4rem;
+    }
+    .homePageText {
+        font-size: 3.5rem;
+    }
+    .container-fluid {
+        margin: 0rem -1rem;
+    }
+    .wrapper i:first-child {
+        left: -4px;
+        z-index: 100;
+        display: none;
+    }
+    .drone-Products-right-child img {
+        width: 33rem;
+    }
+.drone-Products-main {
+    justify-content: center;
+    flex-direction: column;
+    margin: 0rem 8rem;
+}
+    .logo {
+        width: 25%;
+    }
+}
+@media screen and (max-width:601px){
+    .droneHomePage {
+        height: 95vh;
+    }
+    .drone-INTRODUCTION h1 {
+        font-size: 3rem;
+    }
+    .homePage {
+        left: 19rem;
+    }
+    .homePageText {
+        font-size: 3rem;
+    }
+    .drone-ProductsH1 {
+        margin: 7rem 0rem 7rem;
+    }
+    .carousel img{
+      width: calc(47% / 2)
+    }
+    .homeBtn {
+        padding: 1rem 2rem;
+        font-size: 1.3rem;
+        margin: 2rem 1rem 0rem;
+        border: .1rem solid #ddd;
+        border-radius: 1rem;
+    }
+       .drone-Products-main {
+        margin: 0rem 0rem;
+    }
+    
+}
+@media screen and (max-width:501px){
+    .homePage {
+        left: 50%;
+        text-align: center;
+    }
+    .drone-Products-right-child img {
+        width: 27rem;
+    }
+}
