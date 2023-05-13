@@ -164,7 +164,7 @@ h4.offerPrice {
     position: absolute;
     content: '';
     height: 0.3rem;
-    width: 6rem;
+    width: 5.8rem;
     bottom: 10px;
     background-color: black;
 }
@@ -415,6 +415,9 @@ hr {
 @media screen and (max-width:991px) {
     html{
         font-size: 60%;
+    }
+    .price::before {
+        width: 5.8rem;
     }
     .drone-INTRODUCTION p {
         padding: 6rem 0rem;
