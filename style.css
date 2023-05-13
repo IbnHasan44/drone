@@ -4,7 +4,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .row{
-    max-width: 100%;
+    max-width: 100% ;
 }
 input{
     outline: none;
@@ -24,10 +24,11 @@ img{
     width: 100%;
 }
 .logo {
-    width: 13%;
+    width: 15%;
 }
 .container-fluid {
-    margin: 0rem -.5rem;
+    overflow: hidden;
+    width: 100%;
 }
 .droneHomePage {
     background-image: linear-gradient(
@@ -36,7 +37,7 @@ img{
       ),url(images/background.jpg);
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 95vh;
     position: relative;
 }
 .nav-item {
@@ -314,10 +315,11 @@ section.productBrands {
     margin-top: 12rem;
     position: relative;
 }
-.footer h1{
+.footer h1 {
     position: absolute;
     top: 50%;
     left: 50%;
+    text-align: center;
     color: #fff;
     font-size: 4rem;
     font-weight: 700;
@@ -401,6 +403,7 @@ hr {
     color: #fff;
     text-align: center;
     font-size: 1.5rem;
+    padding: 0rem 2rem;
     margin-top: 2rem;
 }
 @media screen and (min-width:1600px){
@@ -413,8 +416,17 @@ hr {
     html{
         font-size: 60%;
     }
+    .drone-INTRODUCTION p {
+        padding: 6rem 0rem;
+    }
+    .drone-INTRODUCTION h1 {
+        font-weight: 600;
+    }
     .carousel img {
         width: calc(47% / 2);
+    }
+    .droneHomePage {
+        height: 52vh;
     }
     div#navbarSupportedContent {
         background-color: #35659dfc;
@@ -436,6 +448,14 @@ hr {
     html{
         font-size: 55.5%;
     }
+    .drone-ProductsH1 h1 {
+        font-size: 3.5rem;
+    }
+    .droneHomePage {
+        height: 65vh;
+        background-color: #00000036;
+        background-blend-mode: darken;
+    }
     .homePage {
         left: 22rem;
     }
@@ -445,13 +465,13 @@ hr {
     .homePageText {
         font-size: 3.5rem;
     }
-    .container-fluid {
-        margin: 0rem -1rem;
-    }
     .wrapper i:first-child {
-        left: -4px;
+        left: -14px;
         z-index: 100;
         display: none;
+    }
+    .wrapper i:last-child {
+        right: -13px;
     }
     .drone-Products-right-child img {
         width: 33rem;
@@ -466,9 +486,6 @@ hr {
     }
 }
 @media screen and (max-width:601px){
-    .droneHomePage {
-        height: 95vh;
-    }
     .drone-INTRODUCTION h1 {
         font-size: 3rem;
     }
@@ -479,7 +496,7 @@ hr {
         font-size: 3rem;
     }
     .drone-ProductsH1 {
-        margin: 7rem 0rem 7rem;
+        margin: 7rem 0rem 5rem;
     }
     .carousel img{
       width: calc(47% / 2)
@@ -499,9 +516,26 @@ hr {
 @media screen and (max-width:501px){
     .homePage {
         left: 50%;
+        width: 100%;
         text-align: center;
+    }
+    .ProductCategories {
+        text-align: center;
+    }
+    .productBrands h1 {
+        margin-top: 12rem;
+        margin-bottom: 3rem;
+    }
+    .droneHomePage {
+        height: 64vh;
+    }
+    .logo {
+        width: 30%;
     }
     .drone-Products-right-child img {
         width: 27rem;
+    }
+    .InputBar input {
+        width: 23rem;
     }
 }
